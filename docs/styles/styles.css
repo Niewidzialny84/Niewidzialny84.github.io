@@ -5,5 +5,49 @@ body {
 	font-size: 13px;
 	line-height: 18px;
 	color: #c0c0c0;
-	background: #81c7b8;
+	background: #6f8a91;
+	overflow: hidden;
+	height: 100%;
+}
+
+section {
+	color: #37c8ab;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bird-logo {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	width: 30%;
+	height: 30%;
+}
+
+.section-logo {
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	width: 30%;
+	height: 30%;
+}
+
+.spacer {
+	aspect-ratio: 960/240;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.wave-up-1 {
+	background-image: url(../images/wave-up-1.svg);
+}
+
+.wave-down-1 {
+	background-image: url(../images/wave-down-1.svg);
 }
