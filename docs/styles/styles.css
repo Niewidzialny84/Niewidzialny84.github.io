@@ -20,6 +20,18 @@ h1 {
 	text-align: center;
 }
 
+#wave-up {
+	position: absolute;
+	top: -5%;
+	left: 0%;
+}
+
+#wave-down {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+
 .bird-logo {
 	position: absolute;
 	top: 30%;
@@ -42,12 +54,4 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-
-.wave-up-1 {
-	background-image: url(../images/wave-up-1.svg);
-}
-
-.wave-down-1 {
-	background-image: url(../images/wave-down-1.svg);
 }
